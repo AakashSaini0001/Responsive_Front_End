@@ -1,0 +1,89 @@
+What is a Bipartite Graph?
+    A bipartite graph is a graph whose set of vertices can be divided into two disjoint sets U and V such that every edge connects a vertex from U to one in V.
+    Properties:
+    No two vertices within the same set are connected.
+    Can contain cycles (but only even-length).
+    Can be disconnected.
+    What is a Tree?
+    A tree is a special type of undirected graph that is:
+    Connected
+
+    Acyclic (no cycles)
+
+    Has exactly n - 1 edges for n vertices
+
+    Difference Between Bipartite Graph and Tree:
+
+    Property	        Bipartite Graph	            Tree
+    Cycles	            Allowed (even-length only)	Not allowed
+    Connected	        Not necessarily	            Always connected
+    Edges	            Varies	                    Exactly n - 1
+    Vertex Partition	Two disjoint sets	        No such requirement
+
+Is Every Bipartite Graph a Tree?
+    ❌ No, not every bipartite graph is a tree.
+    Example: A 4-node cycle (A-B-C-D-A) is bipartite but not a tree since it contains a cycle.
+    ✅ However, every tree is a bipartite graph because:
+    Trees are acyclic (no odd-length cycles),
+    So they can always be 2-colored.
+
+Which Data Structure is Used for Infix to Postfix Conversion and Vice Versa?
+    The Stack data structure is primarily used for both:
+    Infix to Postfix conversion
+    Postfix to Infix conversion
+        Practice some question for the deep understanding also.
+
+
+
+AT what time the faang companies herichery (placement Calender)
+
+Projects:
+    • Online Restaurant Booking Website
+        Developed a restaurant table booking website where users can browse restaurants, check availability, and book tables.
+             Designed a user-friendly interface for browsing restaurants, checking availability, and placing orders.
+             Created a booking confirmation page and integrated a form to collect user details.
+             Technologies Used: JavaScript, PHP, CSS, HTML, MySQL. 
+    • Employee Management System
+        Developed an Employee Management System to efficiently manage task assignment, tracking, and completion.
+             Implemented two separate dashboards for managers and employees.
+             Employees can view assigned tasks and mark them as complete after completion.
+             Learned and applied Fetch API for seamless data communication. 
+
+greedy(pattern based), dp, bruteforce
+
+
+
+ANIMATION:
+
+✅ Which is used in industry-grade projects?
+🔹 1. CSS Animations
+✅ Widely used in production.
+
+⚙️ Best for simple UI animations (hover effects, fades, loaders).
+
+⚡ Very performant (hardware-accelerated with transform, opacity).
+
+✅ Used in frameworks like Bootstrap, Tailwind, etc.
+
+🔹 2. JavaScript + GSAP (GreenSock Animation Platform)
+🏆 Industry standard for complex, high-performance animations.
+
+🎯 Used by big names: Google, Apple, Disney, etc.
+
+🔧 Can animate anything: CSS, SVG, canvas, even scroll-based timelines.
+
+🚀 Very powerful, especially for dynamic animations, timelines, and choreography.
+
+🔹 3. Framer Motion (React)
+⚛️ Industry standard for React projects.
+
+Super intuitive, declarative syntax.
+
+🔄 Supports complex gestures, transitions, and animations.
+
+🔹 4. WebGL / Three.js
+🎮 Used in 3D, immersive web apps, games, or interactive landing pages.
+
+🧠 High learning curve, but used by top-tier creative studios.
+
+Used in portfolios, product showcases, etc.
